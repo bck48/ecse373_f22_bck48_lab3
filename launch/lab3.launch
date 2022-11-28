@@ -1,0 +1,11 @@
+<launch>
+
+    <include file="$(find navvis_description)/launch/display.launch">
+
+    <arg name="use_xacro" default="false" />
+    <arg name="use_robot_state_publisher" default="true" />
+    <arg name="file" default="$(find lab3_robot)/urdf/lab3_robot.xacro)" />
+
+    </include >
+    
+</launch>
